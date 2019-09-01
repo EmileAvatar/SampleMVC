@@ -272,47 +272,48 @@ public class StudentView extends javax.swing.JFrame {
 
     //</editor-fold>
     
+    //<editor-fold defaultstate="collapsed" desc=" View Methods ">
     
     public JSpinner getjSpinnerAge() {
         return jSpinnerAge;
     }
-
+    
     public JTextField getjTextFieldName() {
         return jTextFieldName;
     }
-
+    
     public JTextField getjTextFieldSurname() {
         return jTextFieldSurname;
     }
-
+    
     public JLabel getjLabelStatusAdd() {
         return jLabelStatusAdd;
     }
-
+    
     public JList<String> getjListStudents() {
         return jListStudents;
     }
-
+    
     public DefaultListModel<String> getList() {
         return list;
     }
-
+    
     public void setControl(Controller control) {
         this.control = control;
     }
-
+    
     public JLabel getjLabelAge() {
         return jLabelAge;
     }
-
+    
     public JLabel getjLabelName() {
         return jLabelName;
     }
-
+    
     public JLabel getjLabelSurname() {
         return jLabelSurname;
     }
+    
+    //</editor-fold>
 
-    
-    
 }
