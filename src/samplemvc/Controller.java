@@ -98,7 +98,7 @@ public class Controller {
         }
     }
 
-    void updateStudentListKeyCode(int index, int keyCode) {
+    public void updateStudentListKeyCode(int index, int keyCode) {
         // TODO - Add your code here
         try {
             if (keyCode == KeyEvent.VK_DELETE) {
